@@ -9,7 +9,7 @@ EtherealJewels is een visueel aantrekkelijke webshop voor handgemaakte sieraden.
 🛠️ Gebruikte technologieën
 HTML5
 
-CSS3 / SCSS
+CSS3 
 
 JavaScript
 
