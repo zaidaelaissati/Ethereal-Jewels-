@@ -22,11 +22,11 @@ Clone deze repository:
 bash
 Kopiëren
 Bewerken
-git clone https://github.com/jouwgebruikersnaam/jouwrepo.git
+git clone  https://github.com/zaidaelaissati/Ethereal-Jewels-.git
 cd Ethereal-Jewels-
 Open het project in Visual Studio Code.
 
-Installeer de extensie "Live Server" in VS Code.
+Installeer de ext ensie "Live Server" in VS Code.
 
 Ga naar de Extensions Marketplace (icoon links of via Ctrl+Shift+X).
 
