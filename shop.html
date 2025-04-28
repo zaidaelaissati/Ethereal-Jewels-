@@ -1,0 +1,420 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="/css/style.css" />
+    <link rel="stylesheet" href="/css/font.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cinzel&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400..900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+   <script src="js/winkelwagen.js" defer></script>
+  </head>
+  <body class="bodyshop">
+    
+
+    <header class="headershop">
+      <nav>
+        <input type="checkbox" id="menu-toggle" />
+        <label for="menu-toggle" class="menu-icon">&#9776;</label>
+        <ul>
+          <section class="navbar">
+          <li id="home"><a href="index.html">Home &#711;</a></li>
+          <li id="shop"><a href="shop.html">Shop &#711;</a></li>
+          <li id="contact"><a href="contact.html">Contact &#711;</a></li>
+          <li id="klantenpagina"> <a href="klanten.html"> Klanten &#711;</a></li>
+        </section>
+        
+          <li><h1>EtherealJewels</h1></li>
+          <section class="anderen">
+          <li>
+            <form action="#">
+              <input
+                type="search"
+                name="zoeken "
+                id="zoeken"
+                placeholder="&#128269; zoeken... "
+              />
+            </form>
+          </li>
+          <li>
+            <a href="#" id="wishlistlink"> Wishlist
+            </a>
+            <a href="#" id="wishlistimage">
+              <img src="/assets/images/heart.png" alt="wishlistlink"
+              width="40"
+                   height="40"
+                   >
+            </a>
+      
+          </li>
+          
+        </section>
+        </ul>
+      </nav>
+     
+   
+    </header>
+   
+<main class="mainshop">
+
+    <section class="sfeerbeeldshop">
+      <img
+        src="/assets/images/eleni-koureas-0Hv7W_p410w-unsplash-min.jpg"
+        alt="sfeerbeeld"
+        width="1500"
+        height="450"
+      />
+    </section>
+    <section class="gegevens">
+      <section class="categorie">
+        <label for="categorie">categorie</label>
+        <select name="categorie" id="categorie">
+          <option value="categorie">kettingen &#11167;</option>
+          <option value="categorie">armbanden &#11167;</option>
+          <option value="categorie">ringen &#11167;</option>
+          <option value="categorie">oorbellen &#11167;</option>
+        </select>
+      </section>
+      <section class="vormen">
+        <label for="vormen">vormen</label>
+        <select name="vormen" id="vormen">
+          <option value="vormen">emerald &#11167;</option>
+          <option value="vormen">rond &#11167;</option>
+          <option value="vormen">vierkant &#11167;</option>
+          <option value="vormen">druppel &#11167;</option>
+        </select>
+      </section>
+      <section class="prijslijst">
+        <label for="range">prijslijst</label>
+        <label for="range" >min: &euro;32,95 max: &euro;69,59</label>
+        <input
+          type="range"
+          min="32,95"
+          max="69,95"
+          value="10"
+          id="prijslijst"
+        />
+      </section>
+      <section class="materiaal">
+        <label for="materiaal">materiaal</label>
+        <select name="materiaal" id="materiaal">
+          <option value="materiaal">gold-plated &#11167;</option>
+          <option value="materiaal">silver-plated &#11167;</option>
+          <option value="materiaal">rosegold-plated &#11167;</option>
+        </select>
+      </section>
+    </section>
+      <section class="shop">
+        <section class="rij1shop">
+          <figure>
+            <img
+              src="/assets/images/miao-xiang-leFR7Fj3J6I-unsplash.jpg"
+              alt="golden hoop earrings"
+              width="300"
+              height="300"
+            />
+            <br />
+            <a href="Golden hoop earrings.html"> Golden hoop earrings</a><br />
+            <p>&euro; 32,95 EUR</p>
+            <a href="#">
+              <input type="button" value="&#128722; toevoegen in de Winkelwagen">
+            </a>
+          
+
+          </figure>
+          <figure>
+            <img
+              src="/assets/images/sabrianna-kuko1hX_kXw-unsplash.jpg"
+              alt="crossed crystal ring"
+              width="300"
+              height="300"
+            />
+            <br />
+            <a href="Crossed crystal ring.html">Crossed crystal ring</a> <br />
+            <p>&euro; 34,95 EUR</p>
+            <a href="#">
+              <input type="button" value="&#128722; toevoegen in de Winkelwagen">
+            </a>
+          </figure>
+        
+
+          <figure>
+            <img
+            src="/assets/images/sabrianna-NhrcL_C0sFA-unsplash.jpg"
+            alt="emerals enchantment"
+            width="300"
+            height="300"
+          />
+          <br> <a href="Emerald enchantment.html">Emerald enchantment</a><br>
+          <p>&euro; 50,39 EUR</p>
+          <a href="#">
+            <input type="button" value="&#128722; toevoegen in de Winkelwagen">
+          </a>
+          </figure>
+
+
+        </section>
+        <section class="rij2shop">
+            <figure>
+                <img
+                src="/assets/images/sabrianna-9FMSF5N65Yg-unsplash.jpg"
+                alt="Rosegold radiance ring"
+                width="300"
+                height="300"
+              />
+              <br>
+              <a href="Rosegold radiance ring.html">Rosegold radiance ring</a><br>
+              <p>&euro; 32,95 EUR</p>
+              <a href="Rosegold radiance ring.html">
+                <input type="button" value="&#128722; toevoegen in de Winkelwagen">
+              </a>
+            </figure>
+         
+    <figure>
+        <img
+        src="/assets/images/sabrianna-2z7MxnXQs3k-unsplash.jpg"
+        alt="Silver sparkle bracelet"
+        width="300"
+        height="300"
+      />
+      <br>
+      <a href="Silver sparkle bracelet.html">Silver sparkle bracelet</a>
+      <p>&euro; 60,95 EUR</p>
+      <a href="Silver sparkle bracelet.html">
+        <input type="button" value="&#128722; toevoegen in de Winkelwagen">
+      </a>
+    </figure>
+    <figure>
+        <img
+        src="/assets/images/sabrianna-u1Hv_erOQH0-unsplash.jpg"
+        alt="silver diamond majesty necklace"
+        width="300"
+        height="300"
+      />
+      <br><a href="Silver diamond majesty necklace.html">Silver diamond majesty necklace</a><br>
+      <p>&euro; 69,59 EUR</p>
+      <a href="#">
+        <input type="button" value="&#128722; toevoegen in de Winkelwagen">
+      </a>
+    </figure>
+
+        </section>
+        <section class="rij3shop">
+            <figure>
+                <img
+                src="/assets/images/eve-maier-7uQQHORcTpc-unsplash.jpg"
+                alt="Gold-plated necklace pendant set"
+                width="300"
+                height="300"
+              />
+              <br>
+              <a href="Gold-plated necklace pendant set.html">Gold-plated necklace pendant set</a>
+              <br>      <p>&euro; 49,59 EUR</p>
+              <a href="#">
+                <input type="button" value="&#128722; toevoegen in de Winkelwagen">
+              </a>
+            </figure>
+          
+      <figure>  <img
+        src="/assets/images/sabrianna-wh_rZqPiCuw-unsplash.jpg"
+        alt="Silver diamond majesty ring"
+        width="300"
+        height="300"
+      />
+      <br>
+      <a href="Silver diamond majesty ring.html">Silver diamond majesty ring</a><br>
+      <p>&euro; 40,59 EUR</p>
+      <a href="#">
+        <input type="button" value="&#128722; toevoegen in de Winkelwagen" >
+      </a>
+    </figure>
+        
+      <figure>
+        <img
+        src="/assets/images/sabrianna-ZoDgJpXzDB8-unsplash.jpg"
+        alt="Heart shaped crystal necklace"
+        width="300"
+        height="300"
+      />
+      <br><a href="Heart shaped crystal necklace.html">Heart shaped crystal necklace</a><br>
+      <p>&euro; 49,59 EUR</p>
+      <a href="#">
+        <input type="button" value="&#128722; toevoegen in de Winkelwagen">
+      </a>
+      </figure>
+      
+          
+        </section>
+        <section class="rij4shop">
+       <figure>
+        <img
+        src="assets/images/andrew-hutchings-Asngw4A5_tM-unsplash.jpg"
+        alt="Rosegold dangled earring"
+        width="300"
+        height="300"
+      />
+      <br><a href="Rosegold dangled earring.html">Rosegold dangled earring</a><br>
+      <p>&euro; 59,59 EUR</p>
+      <a href="#">
+        <input type="button" value="&#128722; toevoegen in de Winkelwagen" >
+      </a>
+       </figure>
+   <figure>
+    <img
+      src="/assets/images/sabrianna-Lqfqsij4EvQ-unsplash.jpg"
+      alt="Round diamond earring"
+      width="300"
+      height="300"
+    />
+    <br>
+    <a href="Round diamond earring.html">Round diamond earring</a><br>
+    <p>&euro; 45,59 EUR</p>
+    <a href="#">
+      <input type="button" value="&#128722; toevoegen in de Winkelwagen">
+    </a>
+   </figure>
+
+      
+
+    <figure>
+        <img
+        src="/assets/images/jenna-day-B-JtfqdHemU-unsplash.jpg"
+        alt="Rosegold oval shaped diamond ring"
+        width="300"
+        height="300"
+      />
+      <br>
+      <a href="Rosegold oval shaped diamond ring.html">Rosegold oval shaped diamond ring</a><br>
+      <p>&euro; 40,59 EUR</p>
+      <a href="#">
+        <input type="button" value="&#128722; toevoegen in de Winkelwagen">
+      </a>
+    </figure>
+      
+        </section>
+      </section>
+    </main>
+
+    <aside>
+<section>
+  <a href="#" id="winkelwagenimage">
+    <img
+    src="/assets/images/Black_Cart02.png"
+    alt="logowinkelwagen"
+    width="40"
+    height="40"
+  />
+  </a>
+  
+    <h2>Mijn Winkelwagen:</h2>
+</section>
+    
+          <ul id="winkelwagen-items"></ul>
+          <p id="totaal-prijs">Totaal: €0.00</p>
+     
+     
+    </aside>
+
+  
+    <footer class="footershop">
+      <input type="checkbox" id="footer-toggle">
+      <label for="footer-toggle" class="footer-icon">&#9871;</label>
+       <section class="footermenu">
+      <section class="companylogo">
+              <h1>EtherealJewels</h1>
+              <br />
+              <ul>
+                <li id="home"><a href="index.html">Home |</a></li>
+                <li id="shop"><a href="shop.html">Shop |</a></li>
+                <li id="contact"><a href="contact.html">Contact |</a></li>
+              </ul>
+              <p>EtherealJewels &copy; 2024</p>
+            </section>
+            <section class="gegevens">
+              <address>
+                <ul>
+                  <li>
+                    <a
+                      href="https://www.google.com/maps/dir//ap+hogeschool/data=!4m6!4m5!1m1!4e2!1m2!1m1!1s0x47c3f6fc1b56e329:0x29c55097bbfcd480?sa=X&ved=1t:3061&ictx=111"
+                    >
+                    &#9906; Adress: Ellermanstraat 33, 2060 Antwerpen</a
+                    >
+                  </li>
+                  <li><a href="tel:+32 486687890">&#9743; tel: 0486687890</a></li>
+                  <li>
+                    <a href="mailto:zaida.elaissati@student.ap.be">
+                      &#9993; e-mail: zaida.elaissati@student.ap.be</a
+                    >
+                  </li>
+                </ul>
+              </address>
+            </section>
+      
+            <section class="rechterkant">
+              <section class="copyright">
+                <ul>
+                  <li><a href="https://nl.123rf.com/profile_captainvector"><span>&copy;</span>captainvector</a
+                    ></li>
+                    <li> <a href="https://www.123rf.com/free-images/">123RF Free Images</a>
+                    </li>
+                    <li> <a href="https://nl.vecteezy.com/gratis-vector/facebook-logo"
+                      >Facebook Logo Vectoren door Vecteezy</a
+                    ></li>
+                   <li>     
+                    <a href="https://nl.vecteezy.com/gratis-vector/instagram-logo"
+                      >Instagram Logo Vectoren door Vecteezy</a
+                    ></li>
+                    <li><a href="https://nl.vecteezy.com/gratis-vector/twitter"
+                      >Twitter Vectoren door Vecteezy</a
+                    ></li>
+                    <li><a href="https://www.flaticon.com/free-icons/wishlist" title="wishlist icons">Wishlist icons created by sonnycandra - Flaticon</a></li>
+                </ul>
+                
+               
+                
+              </section>
+              <section class="socials">
+                <h4>Find us on</h4>
+                <ul>
+                  <a href="https://www.facebook.com/APHogeschool/?locale=nl_BE">
+                    <img
+                      src="/assets/images/vecteezy_facebook-logo-vector-facebook-icon-free-vector_18910799.jpg"
+                      width="50"
+                      height="50"
+                      alt="facebook-logo"
+                  /></a>
+                  <a href="https://www.instagram.com/aphogeschool/"
+                    ><img
+                      src="/assets/images/vecteezy_instagram-black-logo-on-transparent-background_14414683.jpg"
+                      width="50"
+                      height="50"
+                      alt="instagram-logo"
+                  /></a>
+                  <a
+                    href="https://twitter.com/i/flow/login?redirect_after_login=%2FAP_Hogeschool"
+                    ><img
+                      src="/assets/images/vecteezy_social-media-x-logo-black-and-white_26406678.jpg"
+                      width="50"
+                      height="50"
+                      alt="twitter-logo"
+                  /></a>
+                </ul>
+              </section>
+            </section>
+          </section>  
+    </footer>
+
+  </body>
+</html>

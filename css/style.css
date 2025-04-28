@@ -1,0 +1,1458 @@
+body {
+  display: grid;
+  grid-template-areas:
+    "nav"
+    "Featured"
+    "newsletter"
+    "aboutyou"
+    "footer";
+}
+
+nav {
+  grid-area: nav;
+  background-color: #d1cbc3;
+  position: fixed;
+  width: 100vw;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
+nav > ul > li > h1 {
+  margin-left: 1rem;
+  text-decoration: overline;
+  letter-spacing: 0.2rem;
+  font-weight: 700;
+}
+
+nav > ul > .navbar > li > a:hover {
+  text-decoration: underline;
+}
+
+nav > ul > .navbar > li {
+  padding-left: 3rem;
+  width: 10rem;
+}
+
+/*hoofdpagina index.html*/
+.navbar {
+  display: flex;
+}
+.anderen,
+ul,
+li {
+  display: flex;
+  align-items: center;
+}
+
+li > a {
+  text-decoration: none;
+}
+
+li > a,
+.rijheader > section > a {
+  color: black;
+}
+
+#wishlistlink {
+  margin-left: 1rem;
+}
+#winkelwagenid {
+  margin-left: 4rem;
+}
+#zoeken {
+  margin-left: 3rem;
+  border: solid black thin;
+  color: gray;
+  padding-left: 0.5rem;
+  background-color: whitesmoke;
+}
+
+#mainhoofdpagina {
+  margin-top: 5rem;
+  border-bottom: solid gainsboro;
+  padding-bottom: 3rem;
+}
+#mainhoofdpagina > h1 {
+  color: #c0b6abe0;
+  text-align: center;
+  padding-top: 5rem;
+  font-weight: 600;
+}
+
+#mainhoofdpagina > h1:hover,
+#mainhoofdpagina > h2:hover {
+  color: black;
+}
+
+#mainhoofdpagina > p {
+  text-align: center;
+  padding-left: 30rem;
+  width: 60rem;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
+#mainhoofdpagina > h2 {
+  text-align: center;
+  padding-bottom: 3rem;
+  color: #c0b6abe0;
+  font-weight: 600;
+}
+#mainhoofdpagina > img {
+  display: block;
+  align-content: center;
+  margin-left: 15rem;
+}
+
+.FeaturedProducts {
+  grid-area: Featured;
+  width: 40rem;
+  padding-top: 1rem;
+  padding-bottom: 2rem;
+  background-color: #000000;
+  background-image: linear-gradient(180deg, #e9e1d6, #c4b7a7);
+  width: auto;
+}
+
+.kolom {
+  padding: 7px;
+}
+.rijfeatured {
+  display: flex;
+  margin-left: 15rem;
+}
+.rijfeatured > img:hover {
+  transition-property: transform;
+  transform: scale(1.2);
+}
+.rijheader {
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: row;
+}
+.rijheader > section > a {
+  width: 15rem;
+  text-decoration: none;
+
+  display: block;
+  padding-bottom: 1rem;
+}
+.rijheader > section > p {
+  width: 9rem;
+  padding-bottom: 0.5rem;
+}
+
+.Newsletter {
+  grid-area: newsletter;
+  width: 100%;
+  padding-top: 2rem;
+  border: black solid;
+  margin-top: 3rem;
+}
+
+.Newsletter fieldset > p {
+  padding-left: 1rem;
+  padding-top: 2rem;
+}
+
+.Newsletter > fieldset > h3 {
+  font-size: 1.5rem;
+  font-weight: 600;
+  padding-left: 1rem;
+}
+.Newsletter > fieldset > form > #email {
+  border: black solid thin;
+}
+.Newsletter > fieldset > form {
+  padding-bottom: 2rem;
+}
+.Newsletter > fieldset > form > #knop {
+  border: black solid thin;
+  padding: 0.5rem 1.5rem 0.5rem 1.5rem;
+  font-size: 1rem;
+  border-radius: 5px;
+  background-color: #f1f1f1;
+}
+.Newsletter > fieldset > form > #knop:hover {
+  background-color: #f1f1f19e;
+}
+
+.Aboutyou {
+  grid-area: aboutyou;
+  background-color: #f4efe6;
+  padding-bottom: 5rem;
+  padding-top: 3rem;
+  display: flex;
+  align-items: center;
+  padding-left: 1rem;
+}
+
+#aboutme {
+  background-color: #f4efe6;
+  margin-bottom: 0%;
+  font-size: 2.5rem;
+  font-weight: 700;
+  margin-top: 2rem;
+  padding-left: 1rem;
+}
+.Aboutyou > img {
+  border-radius: 30%;
+}
+.Aboutyou > p {
+  width: 80rem;
+  padding-right: 10rem;
+}
+
+.footermenu {
+  grid-area: footer;
+  display: flex;
+  margin-top: 2rem;
+}
+footer > .footermenu > .gegevens {
+  padding-left: 10rem;
+  margin-top: 2rem;
+}
+.companylogo > ul {
+  width: 25rem;
+}
+.companylogo > p {
+  padding-left: 2.5rem;
+  padding-top: 4rem;
+}
+.companylogo > h1 {
+  padding-left: 2.5rem;
+  font-weight: bold;
+  text-decoration: overline;
+}
+.companylogo > ul > li > a:hover {
+  text-decoration: underline;
+}
+.companylogo > ul > li {
+  padding-left: 2.5rem;
+}
+address {
+  width: 30rem;
+}
+address > ul {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+address > ul > li {
+  padding-bottom: 0.5rem;
+}
+address > ul > li > a:hover {
+  text-decoration: underline;
+}
+.rechterkant {
+  padding-left: 5rem;
+}
+
+.copyright > ul {
+  display: flex;
+  flex-direction: column;
+  width: 20rem;
+  align-items: flex-end;
+}
+.socials > h4 {
+  text-align: right;
+  padding-top: 2rem;
+  padding-bottom: 1rem;
+  font-weight: 700;
+}
+.socials > ul {
+  padding-left: 11rem;
+}
+
+/*css stijl voor shop.html*/
+
+.bodyshop {
+  display: grid;
+  grid-template-areas:
+    "headershop headershop"
+    "main aside"
+    "footershop footerschop";
+}
+.headershop > nav {
+  z-index: 1;
+}
+
+.mainshop {
+  grid-area: main;
+}
+
+.sfeerbeeldshop {
+  margin-top: 5rem;
+}
+
+.footershop {
+  grid-area: footershop;
+  background-color: #f4f2f0;
+}
+
+#categorie {
+  background-color: #f4f2f0;
+  margin-left: 1.5rem;
+  border: black solid thin;
+  padding-left: 0.5rem;
+}
+#vormen {
+  background-color: #f4f2f0;
+  margin-left: 1.5rem;
+  border: black solid thin;
+  padding-left: 0.5rem;
+  padding-right: 1rem;
+}
+
+#materiaal {
+  background-color: #f4f2f0;
+  margin-left: 1.5rem;
+  border: black solid thin;
+  padding-left: 0.5rem;
+}
+
+.prijslijst > label:nth-of-type(2) {
+  margin-left: 1rem;
+}
+
+.gegevens {
+  display: flex;
+  justify-content: space-between;
+}
+.prijslijst > li {
+  display: flex;
+  flex-direction: column;
+}
+#prijslijst {
+  border: black solid thin;
+  border-radius: 10px;
+  height: 8px;
+  background-color: lightgray;
+}
+.shop > .rij1shop {
+  display: flex;
+  margin-top: 4rem;
+  column-gap: 2rem;
+  margin-left: 1rem;
+}
+.shop > .rij1shop > figure:hover,
+.shop > .rij2shop > figure:hover,
+.shop > .rij3shop > figure:hover,
+.shop > .rij4shop > figure:hover {
+  box-shadow: 20px 20px 20px lightgrey;
+}
+
+.shop > .rij2shop {
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+  display: flex;
+  column-gap: 2rem;
+  margin-left: 1rem;
+}
+
+.shop > .rij3shop {
+  display: flex;
+  column-gap: 2rem;
+  margin-left: 1rem;
+}
+
+.shop > .rij4shop {
+  display: flex;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  column-gap: 2rem;
+  margin-left: 1rem;
+}
+.shop > .rij1shop > figure > a:nth-of-type(1),
+.shop > .rij2shop > figure > a:nth-of-type(1),
+.shop > .rij3shop > figure > a:nth-of-type(1),
+.shop > .rij4shop > figure > a:nth-of-type(1) {
+  text-decoration: underline;
+}
+
+.shop > .rij1shop > figure > p,
+.shop > .rij2shop > figure > p,
+.shop > .rij3shop > figure > p,
+.shop > .rij4shop > figure > p {
+  padding-bottom: 1rem;
+  padding-top: 0.5rem;
+}
+
+.shop > .rij1shop > figure > a:nth-of-type(2),
+.shop > .rij2shop > figure > a:nth-of-type(2),
+.shop > .rij3shop > figure > a:nth-of-type(2),
+.shop > .rij4shop > figure > a:nth-of-type(2) {
+  border: black solid thin;
+  padding: 0.2rem 0.5rem 0.2rem 0.5rem;
+  border-radius: 1px;
+  background-color: #f1f1f1;
+}
+
+/*css stijl voor detail.hmtl*/
+
+.bodydetail {
+  display: grid;
+  grid-template-areas:
+    "nav"
+    "header"
+    "main"
+    "footer";
+}
+.footerdetail {
+  grid-area: footer;
+  background-color: #f4f2f0;
+}
+.maindetail > figure {
+  margin-top: 10rem;
+  display: flex;
+  margin-left: 2rem;
+}
+.maindetail > figure > figcaption {
+  margin-left: 10rem;
+}
+.maindetail > figure > figcaption > input {
+  border: black solid thin;
+  border-radius: 5px;
+  background-color: rgba(247, 245, 245);
+  padding: 0rem 0.5rem 0rem 0.5rem;
+}
+.maindetail > figure > figcaption > a > #winkelwagenknop {
+  border: black solid thin;
+  border-radius: 5px;
+  background-color: rgba(247, 245, 245);
+}
+.maindetail > figure > figcaption > a > #winkelwagenknop:hover {
+  background-color: rgba(220, 217, 217, 0.68);
+}
+
+.maindetail > figure > figcaption > h1 {
+  font-size: 2.5rem;
+  font-weight: bold;
+  margin-bottom: 2rem;
+}
+
+.maindetail > figure > figcaption > p {
+  margin-bottom: 1rem;
+  margin-top: 1rem;
+}
+span {
+  color: black;
+}
+.similarproducts {
+  display: flex;
+  justify-content: space-between;
+  margin-left: 2rem;
+  margin-top: 3rem;
+}
+.similarproducts > figure {
+  display: flex;
+  border-style: solid;
+  border-color: grey;
+  width: 25rem;
+}
+.similarproducts > figure > figcaption {
+  margin-left: 2rem;
+  margin-top: 3rem;
+
+}
+.similarproducts > figure > figcaption > ul > li {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+ 
+}
+.similarproducts > figure > figcaption > ul > li > h2 {
+  font-weight: bolder;
+ 
+}
+
+.beoordeling {
+  display: flex;
+  flex-direction: column;
+  margin-top: 3rem;
+  margin-bottom: 1rem;
+}
+.beoordeling > h1 {
+  font-size: 2rem;
+  font-weight: bold;
+  padding-left: 3rem;
+  text-decoration: underline;
+}
+.review1 {
+  display: flex;
+  flex-direction: row;
+  border-bottom: solid gray;
+  padding: 1rem 1rem 1rem 3rem;
+  margin-bottom: 2rem;
+}
+.review2 {
+  display: flex;
+  flex-direction: row;
+  padding: 1rem 1rem 1rem 3rem;
+}
+.review1 > #persoon > h3,
+.review2 > #persoon > h3 {
+  font-weight: bolder;
+}
+
+.review1 > #persoon > h4,
+.review2 > #persoon > h4 {
+  font-weight: bolder;
+}
+
+#textreview1,
+#textreview2 {
+  width: 50rem;
+  padding-left: 10rem;
+}
+
+#persoon {
+  width: 15em;
+}
+#persoon > h4 {
+  color: grey;
+}
+#sterretjes {
+  font-size: 2rem;
+  color: rgb(223, 199, 62);
+  padding-left: 5rem;
+}
+.reviewplaatsen {
+  border: black solid thin;
+}
+.reviewplaatsen > fieldset > h1 {
+  padding-left: 3rem;
+  text-decoration: underline;
+  padding-top: 2rem;
+  font-weight: bold;
+}
+.reviewplaatsen > fieldset > form > #e-mail {
+  margin-left: 3rem;
+  margin-top: 2rem;
+  padding-top: 1rem;
+  width: 50rem;
+  border: black solid thin;
+}
+.reviewplaatsen > fieldset > form > #textarea {
+  margin-left: 3rem;
+  margin-bottom: 3rem;
+  padding-bottom: 1rem;
+  width: 55rem;
+  border: black solid thin;
+}
+
+.reviewplaatsen > fieldset > form > #button {
+  border: black solid thin;
+  margin-left: 3rem;
+  margin-bottom: 2rem;
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+  background-color: rgba(230, 227, 227, 0.694);
+}
+#wishlist {
+  padding-right: 3rem;
+}
+
+/*css stijl voor contact.html*/
+legend {
+  align-items: flex-start;
+  margin-top: 5rem;
+  margin-bottom: 3rem;
+  color: rgba(0, 0, 0, 0.733);
+  text-decoration: underline;
+}
+.maincontact>legend:hover {
+  color: #ada69dde;
+}
+
+#contactformTitel > nav {
+  position: relative;
+  width: auto;
+}
+.maincontact > legend {
+  font-size: 2rem;
+}
+.contactformulier {
+  background-color: rgba(160, 156, 156, 0.087);
+  height: 95vh;
+  display: flex;
+  border: #000000 solid;
+}
+
+.contactformulier > .kaart > p {
+  margin-left: 3rem;
+}
+.contactformulier > section > form {
+  height: 15vh;
+  font-size: 1rem;
+}
+.contactformulier > section > form > label {
+  margin-left: 1rem;
+  font-size: 1.5rem;
+}
+#voornaam,
+#achternaam,
+#email {
+  margin-top: 1rem;
+  margin-left: 1rem;
+  padding: 1rem 40rem 1rem 1rem;
+  border: #000000 solid thin;
+  background-color: white;
+  color: gray;
+}
+
+#onderwerp {
+  margin-top: 1rem;
+  margin-left: 1rem;
+  margin-bottom: 1rem;
+  border: #000000 solid thin;
+  background-color: white;
+}
+#land {
+  padding: 0.1rem 0.5rem 0.1rem 0.1rem;
+  font-size: 1rem;
+  border: #000000 solid thin;
+  background-color: white;
+}
+
+.contactformulier > section > #verzenden {
+  margin-top: 6rem;
+  margin-left: 1rem;
+  margin-top: 7.5rem;
+  border: black solid thin;
+  padding: 0.5rem 1.5rem 0.5rem 1.5rem;
+  font-size: 0rem;
+  border-radius: 5px;
+  background-color: #f1f1f1;
+  font-size: 1rem;
+}
+.contactformulier > section > #verzenden:hover {
+  background-color: #f1f1f19e;
+}
+
+#map {
+  margin-left: 3rem;
+  margin-top: 2rem;
+  height: 80vh;
+  width: 50vh;
+}
+
+/*animatie voor verzendknop*/
+@keyframes pulse {
+  0%, 100% {
+    transform: scale(1);
+    opacity: 1;
+  }
+  50% {
+    transform: scale(1.05);
+    opacity: 0.7;
+  }
+}
+
+#verzenden {
+  animation: pulse 2s infinite;
+}
+
+/*ASIDE*/
+
+aside {
+  grid-area: aside;
+  margin-top: 35rem;
+  border: 1px solid black;
+  margin-left: 65rem;
+  position: fixed;
+  width: 440px;
+  background-color: #fff;
+  padding: 20px;
+  border-left: 1px solid #ddd;
+  box-shadow: -2px 0 5px rgba(0, 0, 0, 0.1);
+  z-index: 1;
+  height: 100vh;
+}
+
+aside > section {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+aside > section > h2 {
+  margin-bottom: 2rem;
+  font-weight: bold;
+  margin-top: 2rem;
+}
+#winkelwagenimage {
+  margin-right: 2rem;
+}
+
+#winkelwagen-items {
+  display: flex;
+  flex-direction: column;
+  padding: 0;
+}
+
+#winkelwagen-items li {
+  margin-bottom: 10px;
+  font-size: 16px;
+}
+
+#totaal-prijs {
+  margin-top: 20px;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+#winkelwagen-items > li span {
+  margin-left: 10px;
+  font-weight: bold;
+}
+
+button {
+  padding: 5px 20px;
+  font-size: 0.75;
+  background: #e67373;
+  border: 2px solid #eaeaea;
+  color: #111111;
+  border-radius: 50px;
+}
+
+button:hover {
+  box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.24);
+  color: #fff;
+}
+
+/*KLANTENPAGINA*/
+
+#klanten-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  gap: 20px;
+  margin-top: 10rem;
+}
+
+.klant {
+  background-color: #ffffff;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  max-width: 250px;
+  text-align: center;
+  margin-top: 10rem;
+}
+.klant:hover {
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+.klant > img {
+  border-radius: 50%;
+  max-width: 100px;
+  height: auto;
+}
+
+.klant > h2 {
+  font-size: 1.2em;
+  margin: 10px 0;
+  color: #333;
+  font-family: "montserrat";
+}
+
+.klant > p {
+  font-size: 1em;
+  color: #777;
+  font-family: "montserrat";
+}
+
+.klantenfooter {
+  background-color: #f4f2f0;
+  margin-top: 10rem;
+}
+
+/*MEDIAQUERY*/
+.menu-icon {
+  display: none;
+}
+#menu-toggle {
+  display: none;
+}
+.footer-icon {
+  display: none;
+}
+#footer-toggle {
+  display: none;
+}
+
+/* Algemene stijl voor mobiele apparaten */
+@media only screen and (max-width: 768px) {
+  /*NAV*/
+  ul > .navbar {
+    flex-direction: column;
+    position: absolute;
+    display: none;
+  }
+
+  nav > ul > li > h1 {
+    padding-left: 10rem;
+  }
+
+  nav > ul > .anderen {
+    flex-wrap: wrap;
+    margin-left: 7rem;
+  }
+
+  #wishlistlink {
+    margin-left: 3rem;
+  }
+
+  nav > ul {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .menu-icon {
+    display: inline;
+    cursor: pointer;
+    font-size: 4rem;
+  }
+
+  #menu-toggle {
+    display: none;
+  }
+  #menu-toggle:checked ~ ul > .navbar {
+    display: flex;
+    font-size: 1.5rem;
+  }
+
+  nav > ul > li > h1 {
+    margin-left: 0;
+    font-size: 1.5rem;
+  }
+
+  nav > ul > .navbar > li {
+    padding-left: 1rem;
+  }
+
+  /*MAIN*/
+  main > section#mainhoofdpagina > h1 {
+    font-size: 2rem;
+    margin-top: 15rem;
+    text-align: start;
+    width: 29rem;
+    margin-left: 3rem;
+  }
+
+  main > section#mainhoofdpagina > p {
+    text-align: start;
+    padding-left: 3rem;
+    width: 30rem;
+  }
+
+  main > section#mainhoofdpagina > h2 {
+    font-size: 1.5rem;
+    text-align: start;
+    margin-left: 3rem;
+  }
+
+  .rijheader {
+    margin-left: 10rem;
+    flex-direction: column;
+  }
+  .rijheader > section {
+    margin-top: 2rem;
+    width: 50rem;
+  }
+
+  .rijheader > img:hover {
+    box-shadow: 20px 20px 20px lightgray;
+  }
+  .FeaturedProducts {
+    width: 30rem;
+  }
+  .rijfeatured > img {
+    width: 10rem;
+    height: 10rem;
+  }
+  .rijfeatured {
+    margin-left: 0rem;
+  }
+
+  .Newsletter {
+    width: 30rem;
+  }
+  #email {
+    padding-right: 10rem;
+  }
+  #knop {
+    margin-left: 1rem;
+  }
+
+  #aboutme {
+    width: 30rem;
+  }
+  .Aboutyou {
+    width: 30rem;
+  }
+  .Aboutyou > p {
+    font-size: 0.75rem;
+    width: 30rem;
+    padding-right: 0rem;
+  }
+  .Aboutyou > img {
+    width: 7rem;
+    height: 7rem;
+  }
+
+  /*FOOTER*/
+  .footer-icon {
+    display: block;
+    cursor: pointer;
+    font-size: 5rem;
+  }
+  .footermenu {
+    display: none;
+  }
+
+  #footer-toggle:checked ~ .footermenu {
+    display: inline;
+  }
+
+  section.rechterkant {
+    padding-left: 0rem;
+  }
+  section.copyright > ul {
+    width: 20rem;
+    align-items: start;
+    padding-left: 2rem;
+    margin-bottom: 2rem;
+  }
+  section.gegevens {
+    display: inline;
+  }
+
+  address {
+    padding-left: 2rem;
+    margin-bottom: 2rem;
+  }
+  section.companylogo > h1 {
+    margin-top: 2rem;
+    padding-left: 2rem;
+  }
+  section.companylogo > p {
+    padding-left: 2rem;
+  }
+  section.socials > ul {
+    flex-direction: row;
+    padding-left: 2rem;
+  }
+  section.socials > h4 {
+    display: inline;
+    padding-left: 2rem;
+  }
+
+  /*SHOP*/
+  .mainshop > .gegevens {
+    display: flex;
+    width: 30rem;
+  }
+  #categorie {
+    margin-left: 0rem;
+  }
+  #vormen {
+    margin-left: 0rem;
+  }
+  #materiaal {
+    margin-left: 0rem;
+  }
+  .rij1shop,
+  .rij2shop,
+  .rij3shop,
+  .rij4shop {
+    flex-direction: column;
+  }
+  .rij1shop > figure,
+  .rij2shop > figure,
+  .rij3shop > figure,
+  .rij4shop > figure {
+    margin-bottom: 2rem;
+    width: 15rem;
+  }
+  .rij1shop > figure > img,
+  .rij2shop > figure > img .rij3shop > figure > img,
+  .rij4shop > figure > img {
+    width: 15rem;
+    height: 15rem;
+  }
+  .rij1shop > figure > p,
+  .rij2shop > figure > p,
+  .rij3shop > figure > p,
+  .rij4shop > figure > p {
+    font-size: 1rem;
+  }
+  .shop > .rij1shop > figure > a:nth-of-type(1),
+  .shop > .rij2shop > figure > a:nth-of-type(1),
+  .shop > .rij3shop > figure > a:nth-of-type(1),
+  .shop > .rij4shop > figure > a:nth-of-type(1) {
+    font-size: 1rem;
+  }
+  .shop > .rij1shop > figure > a:nth-of-type(2),
+  .shop > .rij2shop > figure > a:nth-of-type(2),
+  .shop > .rij3shop > figure > a:nth-of-type(2),
+  .shop > .rij4shop > figure > a:nth-of-type(2) {
+    padding: 0rem 0rem 0.5rem 0.5rem;
+  }
+  .shop > .rij1shop > figure > a:nth-of-type(2) > input,
+  .shop > .rij2shop > figure > a:nth-of-type(2) > input,
+  .shop > .rij3shop > figure > a:nth-of-type(2) > input,
+  .shop > .rij4shop > figure > a:nth-of-type(2) > input {
+    font-size: 0.7rem;
+  }
+
+  /*aside*/
+  aside {
+    margin-top: 35rem;
+    width: 13rem;
+    height: 20rem;
+    margin-left: 17rem;
+    padding: 10px;
+    background-color: #f0f0f0;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+
+  aside h2 {
+    font-size: 1rem;
+    margin-bottom: 10px;
+  }
+
+  aside p {
+    font-size: 1rem;
+    line-height: 1.4;
+    margin-bottom: 10px;
+  }
+
+  /*DETAIL*/
+  /*main*/
+  .maindetail figure {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .maindetail figure img {
+    width: 15rem;
+    height: 15rem;
+    margin-top: 10rem;
+  }
+
+  .maindetail figure figcaption {
+    padding: 20px;
+    margin-left: 0rem;
+    width: 30rem;
+  }
+  #winkelwagenknop {
+    margin-top: 1rem;
+  }
+
+  .similarproducts {
+    flex-direction: column;
+  }
+  .similarproducts > figure > a > img {
+    margin-top: 0rem;
+  }
+  .review1,
+  .review2 {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .review1 p,
+  .review2 p {
+    font-size: 14px;
+  }
+
+  .review1 h3,
+  .review2 h3 {
+    font-size: 16px;
+    margin-bottom: 5px;
+  }
+
+  .review1 h4,
+  .review2 h4 {
+    font-size: 14px;
+    margin-bottom: 5px;
+  }
+
+  .review1 #sterretjes,
+  .review2 #sterretjes {
+    font-size: 20px;
+    margin-bottom: 10px;
+    padding-left: 0rem;
+  }
+
+  .review1 #textreview1,
+  .review2 #textreview2 {
+    font-size: 14px;
+    margin-top: 10px;
+    padding-left: 0rem;
+    width: 25rem;
+  }
+  .reviewplaatsen {
+    width: 30rem;
+  }
+  .reviewplaatsen > fieldset > form > #textarea {
+    width: 25rem;
+  }
+  .reviewplaatsen > fieldset > form > #e-mail {
+    width: 25rem;
+  }
+
+  /*CONTACT*/
+  /*nav*/
+
+
+  /*main*/
+
+  .contactformulier {
+    display: flex;
+    flex-direction: column;
+    width: 30rem;
+    height: 85rem;
+  }
+  #voornaam {
+    padding-right: 15rem;
+  }
+  #achternaam {
+    padding-right: 15rem;
+  }
+  #onderwerp {
+    width: 28rem;
+  }
+  .contactformulier > section > form {
+    height: 20vh;
+  }
+  .contactformulier > section > #verzenden {
+    margin-top: 5rem;
+  }
+  #map {
+    height: 30vh;
+    margin-left: 1rem;
+  }
+  .contactformulier > .kaart > p {
+    margin-top: 2rem;
+    margin-left: 1rem;
+  }
+}
+
+/* Algemene stijl voor tablet */
+@media only screen and (min-width: 769px) and (max-width: 1024px) {
+  /*INDEX*/
+  /*nav*/
+  ul > .navbar {
+    flex-direction: column;
+    position: absolute;
+    display: none;
+  }
+
+  nav > ul > li > h1 {
+    padding-left: 10rem;
+  }
+
+  nav > ul > .anderen {
+    flex-wrap: wrap;
+    margin-left: 7rem;
+  }
+
+  #wishlistlink {
+    margin-left: 3rem;
+  }
+
+  nav > ul {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .menu-icon {
+    display: inline;
+    cursor: pointer;
+    font-size: 4rem;
+  }
+
+  #menu-toggle {
+    display: none;
+  }
+  #menu-toggle:checked ~ ul > .navbar {
+    display: flex;
+    font-size: 1.5rem;
+  }
+
+  nav > ul > li > h1 {
+    margin-left: 0;
+    font-size: 1.5rem;
+  }
+
+  nav > ul > .navbar > li {
+    padding-left: 1rem;
+  }
+
+  /*main*/
+  main > section#mainhoofdpagina > h1 {
+    font-size: 2rem;
+    margin-top: 10rem;
+    text-align: start;
+    width: 45rem;
+    margin-left: 3rem;
+  }
+
+  main > section#mainhoofdpagina > p {
+    text-align: start;
+    padding-left: 3rem;
+    width: 45rem;
+  }
+
+  main > section#mainhoofdpagina > h2 {
+    font-size: 1.5rem;
+    text-align: start;
+    margin-left: 15rem;
+  }
+
+  .rijheader {
+    margin-left: 20rem;
+    flex-direction: column;
+  }
+  .rijheader > section {
+    margin-top: 2rem;
+    width: 50rem;
+  }
+
+  .rijheader > img:hover {
+    box-shadow: 20px 20px 20px lightgray;
+  }
+  .FeaturedProducts {
+    width: 50rem;
+  }
+  .rijfeatured > img {
+    width: 10rem;
+    height: 10rem;
+  }
+  .rijfeatured {
+    margin-left: 10rem;
+  }
+
+  .Newsletter {
+    width: 50rem;
+  }
+  #email {
+    padding-right: 15rem;
+  }
+  #knop {
+    margin-left: 1rem;
+  }
+
+  #aboutme {
+    width: 50rem;
+  }
+  .Aboutyou {
+    width: 50rem;
+  }
+  .Aboutyou > p {
+    font-size: 0.75rem;
+    width: 50rem;
+    padding-right: 0rem;
+  }
+  .Aboutyou > img {
+    width: 7rem;
+    height: 7rem;
+  }
+
+  /*footer*/
+  .footer-icon {
+    display: block;
+    cursor: pointer;
+    font-size: 5rem;
+  }
+  .footermenu {
+    display: none;
+  }
+
+  #footer-toggle:checked ~ .footermenu {
+    display: inline;
+  }
+
+  section.rechterkant {
+    padding-left: 0rem;
+  }
+  section.copyright > ul {
+    width: 20rem;
+    align-items: start;
+    padding-left: 2rem;
+    margin-bottom: 2rem;
+  }
+  section.gegevens {
+    display: inline;
+  }
+
+  address {
+    padding-left: 2rem;
+    margin-bottom: 2rem;
+  }
+  section.companylogo > h1 {
+    margin-top: 2rem;
+    padding-left: 2rem;
+  }
+  section.companylogo > p {
+    padding-left: 2rem;
+  }
+  section.socials > ul {
+    flex-direction: row;
+    padding-left: 2rem;
+  }
+  section.socials > h4 {
+    display: inline;
+    padding-left: 2rem;
+  }
+
+  /*SHOP*/
+  /*main*/
+
+  .mainshop > .gegevens {
+    display: flex;
+    width: 50rem;
+  }
+  #categorie,
+  #vormen,
+  #materiaal {
+    margin-left: 0rem;
+  }
+
+  .rij1shop > figure > img,
+  .rij2shop > figure > img,
+  .rij3shop > figure > img,
+  .rij4shop > figure > img {
+    width: 10rem;
+    height: 10rem;
+    column-gap: 1rem;
+  }
+  .rij1shop > figure > p,
+  .rij2shop > figure > p,
+  .rij3shop > figure > p,
+  .rij4shop > figure > p {
+    font-size: 0.7rem;
+  }
+  .shop > .rij1shop > figure > a:nth-of-type(1),
+  .shop > .rij2shop > figure > a:nth-of-type(1),
+  .shop > .rij3shop > figure > a:nth-of-type(1),
+  .shop > .rij4shop > figure > a:nth-of-type(1) {
+    font-size: 0.8rem;
+  }
+  .shop > .rij1shop > figure > a:nth-of-type(2),
+  .shop > .rij2shop > figure > a:nth-of-type(2),
+  .shop > .rij3shop > figure > a:nth-of-type(2),
+  .shop > .rij4shop > figure > a:nth-of-type(2) {
+    padding: 0rem 0rem 0.5rem 0.5rem;
+  }
+  .shop > .rij1shop > figure > a:nth-of-type(2) > input,
+  .shop > .rij2shop > figure > a:nth-of-type(2) > input,
+  .shop > .rij3shop > figure > a:nth-of-type(2) > input,
+  .shop > .rij4shop > figure > a:nth-of-type(2) > input {
+    font-size: 0.6rem;
+  }
+
+  .shop
+    > .rij1shop
+    > figure:nth-of-type(3)
+    .shop
+    > .rij2shop
+    > figure:nth-of-type(3)
+    .shop
+    > .rij3shop
+    > figure:nth-of-type(3)
+    .shop
+    > .rij4shop
+    > figure:nth-of-type(3) {
+    width: 10rem;
+  }
+
+  /*aside*/
+  aside {
+    margin-top: 35rem;
+    width: 19rem;
+    height: 20rem;
+    margin-left: 40rem;
+    padding: 10px;
+    background-color: #f0f0f0;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+
+  aside h2 {
+    font-size: 1rem;
+    margin-bottom: 10px;
+  }
+
+  aside p {
+    font-size: 1rem;
+    line-height: 1.4;
+    margin-bottom: 10px;
+  }
+
+  /*DETAIL*/
+  /*main*/
+  .maindetail > figure > img {
+    width: 20rem;
+    height: 20rem;
+    margin-top: 5rem;
+  }
+  .maindetail > figure > figcaption {
+    margin-left: 1.5rem;
+    margin-top: 5rem;
+  }
+  .maindetail > figure > figcaption > p {
+    width: 35rem;
+  }
+  .similarproducts {
+    flex-direction: column;
+  }
+  .similarproducts > figure {
+    width: 60rem;
+    margin-bottom: 2rem;
+  }
+  .review1 #sterretjes {
+    padding-left: 0rem;
+  }
+  .review2 #sterretjes {
+    padding-left: 0rem;
+  }
+  #textreview1,
+  #textreview2 {
+    padding-left: 1rem;
+    width: 35rem;
+  }
+
+  /*CONTACT*/
+  /*main*/
+  .contactformulier {
+    width: 60rem;
+    height: 65rem;
+  }
+  #voornaam {
+    padding-right: 15rem;
+  }
+  #achternaam {
+    padding-right: 15rem;
+  }
+  #onderwerp {
+    width: 28rem;
+  }
+  .contactformulier > section > form {
+    height: 20vh;
+  }
+  .contactformulier > section > #verzenden {
+    margin-top: 5rem;
+  }
+  #map {
+    height: 100vh;
+    margin-left: 3rem;
+  }
+  .contactformulier > .kaart > p {
+    margin-top: 2rem;
+    margin-left: 3rem;
+  }
+}

@@ -1,0 +1,147 @@
+nav > ul > a {
+  font-size: small;
+}
+nav > ul > li > h1 {
+  font-family: "cinzel";
+  font-size: 1.5rem;
+}
+#mainhoofdpagina > h1 {
+  font-size: 2rem;
+}
+#mainhoofdpagina > h2 {
+  font-size: 1.5rem;
+}
+#mainhoofdpagina > p,
+nav > ul > a,
+.rijheader > section > a,
+.FeaturedProducts > h1,
+.rijheader > section > p {
+  font-family: "montserrat";
+}
+
+.rijheader > section > a {
+  font-size: 1, 9rem;
+  font-weight: 500;
+}
+.rijheader > section > p,
+.FeaturedProducts > h1,
+.Newsletter > fieldset > h3 {
+  font-size: 1, 5rem;
+}
+
+.Newsletter > fieldset > h3 {
+  font-family: "cinzel";
+}
+.Newsletter > fieldset > p,
+.Newsletter > fieldset > form {
+  font-family: "montserrat";
+}
+.Newsletter > p {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+#aboutme,
+.companylogo > h1 {
+  font-family: "cinzel";
+}
+.Aboutyou > p,
+footer {
+  font-family: "montserrat";
+}
+
+.copyright > ul > li > a {
+  font-size: small;
+}
+
+/*fonts voor shop.html*/
+
+.gegevens,
+#categorie,
+#vormen,
+#materiaal {
+  font-family: "montserrat";
+}
+
+.shop > .rij1shop > figure > a,
+.shop > .rij2shop > figure > a,
+.shop > .rij3shop > figure > a,
+.shop > .rij4shop > figure > a,
+aside > li > #winkelwagenshop {
+  font-family: "montserrat";
+}
+
+/*fonts voor detail.css*/
+.headerdetail > figure > figcaption > h1 {
+  font-family: "montserrat";
+}
+.headerdetail > figure > figcaption > a {
+  font-family: "montserrat";
+  font-size: x-large;
+  font-weight: bold;
+}
+.headerdetail > figure > figcaption > p {
+  font-family: "montserrat";
+  font-size: larger;
+}
+.headerdetail > figure > figcaption > p:nth-of-type(2) {
+  font-size: x-large;
+  color: rgb(232, 205, 53);
+}
+
+#wishlist {
+  font-family: "montserrat";
+}
+#winkelwagenknop {
+  font-family: "montserrat";
+}
+.similarproducts > figure > figcaption > ul > li > h2 {
+  font-family: "montserrat";
+  font-size: medium;
+}
+
+.similarproducts > figure > figcaption > ul > li {
+  font-family: "montserrat";
+}
+
+.beoordeling > h1 {
+  font-family: "montserrat";
+  font-size: x-large;
+}
+
+.beoorderling > .review1 > section > #persoon {
+  font-family: "montserrat";
+}
+#textreview1 {
+  font-family: "montserrat";
+}
+#textreview2 {
+  font-family: "montserrat";
+}
+#persoon {
+  font-family: "montserrat";
+}
+.reviewplaatsen > fieldset > h1 {
+  font-family: "montserrat";
+  font-size: x-large;
+}
+.reviewplaatsen > fieldset > form > #button {
+  font-family: "montserrat";
+}
+
+/*fonts voor contact.html*/
+legend {
+  font-family: "montserrat";
+  font-weight: 600;
+  font-size: x-large;
+}
+
+.contactformulier {
+  font-family: "montserrat";
+  font-weight: 500;
+}
+.contactformulier > #verzenden {
+  font-family: "montserrat";
+}
+.contactformulier > section > p {
+  font-family: "montserrat";
+}

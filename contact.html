@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+   <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="/css/font.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cinzel&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400..900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+      integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY="
+      crossorigin=""
+    />
+
+    <script
+      src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
+      integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo="
+      crossorigin=""
+    ></script>
+
+    <script src="js/contact.js" defer></script>
+  </head>
+  <body>
+    <header id="contactformTitel">
+      <nav>
+        <input type="checkbox" id="menu-toggle" />
+        <label for="menu-toggle" class="menu-icon">&#9776;</label>
+        <ul>
+          <section class="navbar">
+            <li id="home"><a href="index.html">Home &#711;</a></li>
+            <li id="shop"><a href="shop.html">Shop &#711;</a></li>
+            <li id="contact"><a href="contact.html">Contact &#711;</a></li>
+            <li id="klantenpagina"> <a href="klanten.html"> Klanten &#711;</a></li>
+          </section>
+
+          <li><h1>EtherealJewels</h1></li>
+
+          <section class="anderen">
+            <li>
+              <form action="#">
+                <input
+                  type="search"
+                  name="zoeken"
+                  id="zoeken"
+                  placeholder="&#128269;zoeken..."
+                />
+              </form>
+            </li>
+            <li>
+              <a href="#" id="wishlistlink"> Wishlist </a>
+          <a href="#" id="wishlistimage">
+            <img src="/assets/images/heart.png" alt="wishlistlink"
+            width="40"
+                 height="40"
+                 >
+          </a>
+            </li>
+            <li>
+              <a href="shop.html" id="winkelwagenid">Winkelwagen </a>
+             
+              <a href="shop.html" id="winkelwagenimage">
+                <img
+                src="/assets/images/Black_Cart02.png"
+                alt="logowinkelwagen"
+                width="40"
+                height="40"
+              />
+              </a>
+            </li>
+          </section>
+        </ul>
+      </nav>
+    </header>
+
+    <main class="maincontact">
+      <legend>Contactformulier</legend>
+      <fieldset class="contactformulier">
+        <section>
+          <form action="text">
+            <label for="text">Voornaam:</label><br />
+            <input
+              type="text"
+              id="voornaam"
+              name="voornaam"
+              placeholder="Uw voornaam.."
+            />
+          </form>
+
+          <form action="text">
+            <label for="lname">Achternaam:</label><br />
+            <input
+              type="text"
+              id="achternaam"
+              name="achternaam"
+              placeholder="Uw achternaam.."
+            />
+          </form>
+          <form action="">
+            <label for="email">E-mail:</label><br />
+            <input
+              type="email"
+              name="email"
+              id="email"
+              placeholder="Uw e-mail adress.."
+            />
+          </form>
+          <form action="land">
+            <label for="land">Land &#11167</label>
+            <select id="land" name="land">
+              <option value="belgie">Belgie</option>
+              <option value="nederland">Nederland</option>
+              <option value="Duitsland">Duitsland</option>
+              <option value="Frankrijk">Frankrijk</option>
+              <option value="Denenmarken">Denenmarken</option>
+              <option value="anderen">Anders...</option>
+            </select>
+          </form>
+
+          <form action="onderwerp">
+            <label for="onderwerp">Bericht:</label><br />
+            <textarea
+              id="onderwerp"
+              name="onderwerp"
+              cols="100"
+              rows="10"
+              placeholder="Uw onderwerp..."
+            >
+            </textarea>
+          </form>
+
+        <input type="submit" value="Verzenden" id="verzenden">
+        </section>
+        <section class="kaart">
+          <p>Wij zijn gevestigd in:</p>
+          <div id="map"></div>
+        </section>
+      </fieldset>
+    </main>
+
+    
+    <footer>
+      <input type="checkbox" id="footer-toggle">
+<label for="footer-toggle" class="footer-icon">&#9871;</label>
+ <section class="footermenu">
+<section class="companylogo">
+        <h1>EtherealJewels</h1>
+        <br />
+        <ul>
+          <li id="home"><a href="index.html">Home |</a></li>
+          <li id="shop"><a href="shop.html">Shop |</a></li>
+          <li id="contact"><a href="contact.html">Contact |</a></li>
+        </ul>
+        <p>EtherealJewels &copy; 2024</p>
+      </section>
+      <section class="gegevens">
+        <address>
+          <ul>
+            <li>
+              <a
+                href="https://www.google.com/maps/dir//ap+hogeschool/data=!4m6!4m5!1m1!4e2!1m2!1m1!1s0x47c3f6fc1b56e329:0x29c55097bbfcd480?sa=X&ved=1t:3061&ictx=111"
+              >
+              &#9906; Adress: Ellermanstraat 33, 2060 Antwerpen</a
+              >
+            </li>
+            <li><a href="tel:+32 486687890">&#9743; tel: 0486687890</a></li>
+            <li>
+              <a href="mailto:zaida.elaissati@student.ap.be">
+                &#9993; e-mail: zaida.elaissati@student.ap.be</a
+              >
+            </li>
+          </ul>
+        </address>
+      </section>
+
+      <section class="rechterkant">
+        <section class="copyright">
+          <ul>
+            <li><a href="https://nl.123rf.com/profile_captainvector"><span>&copy;</span>captainvector</a
+              ></li>
+              <li> <a href="https://www.123rf.com/free-images/">123RF Free Images</a>
+              </li>
+              <li> <a href="https://nl.vecteezy.com/gratis-vector/facebook-logo"
+                >Facebook Logo Vectoren door Vecteezy</a
+              ></li>
+             <li>     
+              <a href="https://nl.vecteezy.com/gratis-vector/instagram-logo"
+                >Instagram Logo Vectoren door Vecteezy</a
+              ></li>
+              <li><a href="https://nl.vecteezy.com/gratis-vector/twitter"
+                >Twitter Vectoren door Vecteezy</a
+              ></li>
+              <li><a href="https://www.flaticon.com/free-icons/wishlist" title="wishlist icons">Wishlist icons created by sonnycandra - Flaticon</a></li>
+          </ul>
+          
+         
+          
+        </section>
+        <section class="socials">
+          <h4>Find us on</h4>
+          <ul>
+            <a href="https://www.facebook.com/APHogeschool/?locale=nl_BE">
+              <img
+                src="/assets/images/vecteezy_facebook-logo-vector-facebook-icon-free-vector_18910799.jpg"
+                width="50"
+                height="50"
+                alt="facebook-logo"
+            /></a>
+            <a href="https://www.instagram.com/aphogeschool/"
+              ><img
+                src="/assets/images/vecteezy_instagram-black-logo-on-transparent-background_14414683.jpg"
+                width="50"
+                height="50"
+                alt="instagram-logo"
+            /></a>
+            <a
+              href="https://twitter.com/i/flow/login?redirect_after_login=%2FAP_Hogeschool"
+              ><img
+                src="/assets/images/vecteezy_social-media-x-logo-black-and-white_26406678.jpg"
+                width="50"
+                height="50"
+                alt="twitter-logo"
+            /></a>
+          </ul>
+        </section>
+      </section>
+    </section> 
+    </footer>
+  </body>
+</html>
