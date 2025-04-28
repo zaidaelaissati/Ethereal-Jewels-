@@ -4,7 +4,7 @@ webshop
 EtherealJewels is een visueel aantrekkelijke webshop voor handgemaakte sieraden. Deze frontend-only website is ontworpen met oog voor detail en elegantie, en biedt een interactieve gebruikerservaring zonder backend-functionaliteit.
 
 🌐 Live Demo
-(link volgt nog)
+ethereal-jewels.netlify.app
 
 🛠️ Gebruikte technologieën
 HTML5
@@ -16,13 +16,31 @@ JavaScript
 <!-- Voeg dit toe als je frameworks gebruikt: --> <!-- - React (optioneel) --> <!-- - Bootstrap of Tailwind CSS (optioneel) -->
 📦 Installatie
 Je hoeft niets te installeren, clone  de repo en open index.html in je browser.
+hoe doe je dat?
+Clone deze repository:
 
 bash
 Kopiëren
 Bewerken
-git clone https://github.com/zaidaelaissati/EtherealJewels.git
-cd EtherealJewels
-Open daarna index.html met je favoriete browser.
+git clone https://github.com/jouwgebruikersnaam/jouwrepo.git
+cd Ethereal-Jewels-
+Open het project in Visual Studio Code.
+
+Installeer de extensie "Live Server" in VS Code.
+
+Ga naar de Extensions Marketplace (icoon links of via Ctrl+Shift+X).
+
+Zoek naar "Live Server".
+
+Installeer de extensie.
+
+Start de webshop:
+
+Klik met de rechtermuisknop op index.html.
+
+Kies "Open with Live Server".
+
+De webshop opent nu automatisch in je browser!
 
 📁 Projectstructuur
 webshop/
